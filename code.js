@@ -15,8 +15,8 @@ function mergesort(array) {
                 }
                 else{
                     let temp = array[RS];
-                    for(let i = RS; i > LS; i--){
-                        array[i] = array[i - 1];
+                    for(let j = RS; j > LS; j--){
+                        array[j] = array[j - 1];
                     }
                     array[LS] = temp;
                     LS++;
