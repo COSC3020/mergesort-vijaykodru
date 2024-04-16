@@ -15,3 +15,6 @@ part of the array each recursive call considers.
 Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
+
+
+The time complexity for the implemented in place mergesort is $\theta(n^2logn)$ this is because, the outer loop is responsible for breaking the original array into smaller pieces which takes time complexity of $\log(n)$. After this iteration, the code uses a second for loop inside the first one that is resposible in checking each individual element with n number of elements present in the array and does this for n times. this iteration represents the time complexity of n^2. because we are using both the loops for the mergesort, the time complexity will be $\theta(n^2logn)$ which is also the worst case time complexity. This tells us that as the size of the array increases, the time it takes to sort the array using the implemented code increases drastically. 
