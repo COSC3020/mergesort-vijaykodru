@@ -2,7 +2,7 @@ function mergesort(array) {
     var length = array.length;
 
     for(let i = 1; i < length; i *= 2){
-        for(let LE = 0; LE < size - 1; LE += 2*i){
+        for(let LE = 0; LE < length - 1; LE += 2*i){
             let Mid = LE + i - 1
             let RE = Math.min(LE + (2 * (i - 1)), length - 1)
 
