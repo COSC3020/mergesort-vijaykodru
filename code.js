@@ -44,7 +44,8 @@ function mergesort(array) {
 /*
 Sources used:
 
-1. Geek for geeks
+1. Geek for geeks = Had to revise my code due to the tests failing, previously I was trying to do the
+   mergesort without actually doing it, by just comparing the elements. Now I cahgned the code to reflect the mergesort algorithm
 2. Stackoverflow
 3. looked over the fellow classmates repositories
     a. ross223
